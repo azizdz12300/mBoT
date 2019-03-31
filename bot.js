@@ -1718,7 +1718,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['-help+,Walter.js'];	
+    var setGame = ['-help+,👑. Oliver ,👑#2002'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2363,7 +2363,7 @@ let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
      .setDescription(':mailbox_with_mail: تم ارسال الرسالة الى صاحب البوت بنجاح')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("By : LEGEND_YT#4537 ")
+     .setFooter("By : 👑. Oliver ,👑#2002")
                                                 
 
 message.channel.send(embed);
