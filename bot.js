@@ -1718,7 +1718,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['-help+,👑. Oliver ,👑#2002'];	
+    var setGame = ['-help, (👑. Oliver ,👑#2002)'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2871,7 +2871,7 @@ omar.reply("`تم حذف جميع الرتب بنجاح`")
 client.on('message', message => {
 	var prefix = "-";
    if(!message.channel.guild) return;
-if(message.content.startsWith(prefix + 'clear')) {
+if(message.content.startsWith(prefix + 'مسح')) {
 if(!message.channel.guild) return message.channel.send('**This Command is Just For Servers**').then(m => m.delete(5000));
 if(!message.member.hasPermission('MANAGE_MESSAGES')) return      message.channel.send('**You Do not have permission** `MANAGE_MESSAGES`' );
 let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
