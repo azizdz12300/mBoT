@@ -2363,7 +2363,7 @@ let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
      .setDescription(':mailbox_with_mail: تم ارسال الرسالة الى صاحب البوت بنجاح')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("By : 👑. Oliver ,👑#2002")
+     .setFooter("By : 👑Scrapy .#2002👑#2002")
                                                 
 
 message.channel.send(embed);
